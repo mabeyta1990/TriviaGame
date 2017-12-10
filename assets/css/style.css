@@ -1,0 +1,86 @@
+body {  
+    background:url("../images/strangerthingBackground.png");
+    background-size: cover;
+    font-family: 'ITC Benguiat W01';
+    font-weight: 800;
+    font-size: 100px;
+    color: #1c0502;
+    text-shadow: -0.05rem -0.05rem 1px #ed2b12,
+      0.05rem -0.05rem 1px #ed2b12,
+      -0.05rem 0.05rem 1px #ed2b12,
+      0.05rem 0.05rem 1px #ed2b12,
+      0 0 15px #630100,
+      0 0 20px #450100;
+    letter-spacing: -10;
+    text-align: center;
+
+  }
+  .divTimer{
+    font-size: 22px;
+    width: auto;
+    margin-top: 5px;
+  }
+  .divTimer span {
+      float: left;
+      margin: 5 5 5 5;
+      background-color:  rgba(7, 7, 7, 0.6);
+      width: 100%;
+      text-align: left;
+      padding-left: 10px;
+      border-style: solid;
+      border-color: #ed2b12;
+      border-width: 1;
+  }
+  .restOfLogo {
+      
+    display: inline-block;
+  }
+  .sLogo { 
+    display: inline-block;
+    font-size: 140px;
+    fill-opacity: 25px;
+    vertical-align: sub;
+  }
+  .jumbotron {
+      background-color: transparent;  
+      height: 100%;
+      opacity: 0.6;    
+      clear: both;
+  }
+  .btn-secondary,
+  .btn-secondary:hover,
+  .btn-secondary:focus,
+  .btn-secondary:active,
+  .btn-secondary.active {
+    color: black;
+    font-weight: 800;
+    font-size: 25px;
+    color: #1c0502;
+    text-shadow: -0.05rem -0.05rem 1px #ed2b12,
+      0.05rem -0.05rem 1px #ed2b12,
+      -0.05rem 0.05rem 1px #ed2b12,
+      0.05rem 0.05rem 1px #ed2b12,
+      0 0 15px #630100,
+      0 0 20px #450100;
+    letter-spacing: -10;
+    background-color: rgba(7, 7, 7, 0.4);
+    border-color: FCFFFE;
+    opacity: 0.9;
+  }
+  @media screen and (min-width: 0px) and (max-width: 768px) {
+      body {
+          font-size: 25px;
+      }
+      .sLogo {
+          font-size: 35px;
+          vertical-align: sub;
+      }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1215px) {
+      body {
+          font-size: 40px;
+      }
+      .sLogo{
+          font-size: 75px;
+      }
+  }
